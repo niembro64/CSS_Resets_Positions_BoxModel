@@ -39,19 +39,27 @@ h1 {
     display: flex;
     margin: 10px;
     align-items: center;
+    justify-content: space-between;
 }
 
 .leftboy {
     background-color: black;
     height: 30px;
     width: 30px;
-
 }
 .rightboy {
     background-color: white;
     height: 30px;
     width: 30px;
-    position: fixed;
+    /* position: fixed; */
+}
+
+.thirdbox {
+    background-color: black;
+    height: 100px;
+    width: 500px;
+    /* display: flex; */
+    margin: 10px;
 }
 
 #red {
@@ -61,26 +69,6 @@ h1 {
     position: relative;
     left: 10px;
     top: 40px;
-}
-
-.leftbox {
-    height: 30px;
-    width: 30px;
-    background-color: red;
-}
-
-.rightbox {
-    height: 30px;
-    width: 30px;
-    background-color: blue;
-}
-
-.thirdbox {
-    background-color: black;
-    height: 100px;
-    width: 500px;
-    /* display: flex; */
-    margin: 10px;
 }
 
 #blue {
