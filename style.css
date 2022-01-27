@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     background-color: rgb(223, 223, 183);
 }
@@ -45,4 +50,31 @@ h1 {
     position: relative;
     left: 50px;
     top: 0px;
+}
+#green {
+    height: 30px;
+    width: 30px;
+    background-color: green;
+    position: relative;
+    left: 60px;
+    top: -10px;
+}
+
+.topbox{
+    background-color: grey;
+    height: 100px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.leftbox{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
+.rightbox{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
 }
