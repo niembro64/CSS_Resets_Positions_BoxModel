@@ -11,6 +11,33 @@ h1 {
     background-color: green;
 }
 
+.topbox{
+    background-color: grey;
+    height: 100px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.leftbox{
+    height: 30px;
+    width: 30px;
+    background-color: red;
+}
+
+.rightbox{
+    height: 30px;
+    width: 30px;
+    background-color: blue;
+}
+
+.secondbox{
+    background-color: burlywood;
+    height: 100px;
+    
+}
+
 #red {
     height: 30px;
     width: 30px;
@@ -60,22 +87,3 @@ h1 {
     top: -10px;
 }
 
-.topbox{
-    background-color: grey;
-    height: 100px;
-    width: 500px;
-    display: flex;
-    justify-content: center;
-}
-
-.leftbox{
-    height: 30px;
-    width: 30px;
-    background-color: red;
-}
-
-.rightbox{
-    height: 30px;
-    width: 30px;
-    background-color: blue;
-}
